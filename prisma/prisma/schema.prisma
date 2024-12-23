@@ -1,0 +1,23 @@
+// prisma/schema.prisma
+datasource db {
+  provider = "postgresql"  // Can be PostgreSQL, MySQL, SQLite, etc.
+  url      = env("DATABASE_URL")  // Uses the database connection string from .env
+}
+
+generator client {
+  provider = "prisma-client-js"  // Generates the Prisma Client
+}
+
+model Post {
+  id        Int      @id @default(autoincrement())
+  title     String
+  content   String
+  createdAt DateTime @default(now())
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  posts     Post[]
+}
