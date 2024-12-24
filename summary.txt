@@ -3,6 +3,8 @@
 3. Prisma ORM
 4. Postgres  and pgadmin
 
+Task: Harshit Purohit
+=====================
 
 - Installation and setup of following tools:
 1. Vs Code
@@ -13,8 +15,8 @@
 6. pgadmin
 
 
-Overview of following topics:
-Fastify: Routes, Plugins, Schemas, Hooks
-Zod : Implementation
-Prisma: Client, Schema, Data Types, migrations, Prisma CLI commands
-Postgres and pgadmin setup and db connection
+- Overview of following topics:
+1. Fastify: Routes, Plugins, Schemas, Hooks
+2. Zod : Implementation
+3. Prisma: Client, Schema, Data Types, migrations, Prisma CLI commands
+4. Postgres and pgadmin setup and db connection
