@@ -1,9 +1,13 @@
+Date: 23/12/24
+
+Task: Harshit Purohit
+======================
 1. Nodejs and fastify
 2. zod
 3. Prisma ORM
 4. Postgres  and pgadmin
 
-Task: Harshit Purohit
+Updates: Harshit Purohit
 =====================
 
 - Installation and setup of following tools:

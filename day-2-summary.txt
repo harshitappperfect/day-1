@@ -1,0 +1,20 @@
+Date : 24/12/24
+
+Task: Harshit Purohit
+==============================
+
+- To perform CRUD operations using fastify.
+- To implement zod, prisma, and db connection using postgres.
+- To explore joins and different functions used with prisma queries. 
+
+
+
+Updates: Harshit Purohit
+=====================
+
+- Created a demo project to implement the following:
+  - fastify CRUD operations 
+  - validation using zod
+  - db setup using postgres (pgadmin) and 
+  - prisma ORM to interact with the database.
+- Explored joins and different functions used with prisma queries.
